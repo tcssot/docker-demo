@@ -1,4 +1,4 @@
-web:
+web: 
   build: .
   command: node index-db.js
   ports:
