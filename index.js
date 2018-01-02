@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(request, response){
-    response.sendfile('tmobile.html');
+    response.sendfile('homepage.html');
 });
 
 var server = app.listen(3000, function () {
